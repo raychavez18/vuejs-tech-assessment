@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front End Vue JS Technical Assessment">
+    <title>Front End/Vue JS Tech Assessment</title>
+
+    <!-- Style Sheets and Google Fonts -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="home-menu nav-menu nav-menu-fixed">
+            <a class="nav-menu-heading" href="#"><img class="logo" src="img/logo-endless.svg"></a>
+        </div>
+    </div>
+    <div class="content-wrapper">
+
+        <div class="container">
+            <img alt="Couch Photo" class="img-responsive" src="img/bg-img.jpg">
+            <div id="copy-zone" class="copy">
+                <h1>{{ headlineOne }}</h1>
+                <h2>{{ headlineTwo }}</h2>
+                <p>{{ subheadline }}</p>
+                <a class="btn-align" target="_blank" href="#">
+                    <button class="content-btn">{{ cta }}</button>
+                </a>
+            </div>
+        </div>
+
+        <div id="app" class="content">
+            <h1 class="how-copy">{{ message }}</h1>
+            <div id="copy-text" class="row">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS External and Vue -->
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script type="application/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
