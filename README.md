@@ -1,9 +1,9 @@
 # vuejs-tech-assessment
 
 This is a technical exercise to showcase building a responsive mockup and fetching data from an API with the following technologies:
-HTML5
-CSS3
-Javascript ES6
+HTML5,
+CSS3,
+Javascript ES6 and 
 Vue.js
 
 Loading The Technical Exercise:
