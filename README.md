@@ -14,4 +14,7 @@ Loading The Technical Exercise:
 
 3. Finally, unzip the the downloaded file and in the "vuejs-tech-assessment" folder load the "index.html" in your Google Chrome browser. 
 
+To view a live demo click the link below:
+http://www.raychavezweb.com/vue-js-technical-assessment/index.html
+
 Voila!
