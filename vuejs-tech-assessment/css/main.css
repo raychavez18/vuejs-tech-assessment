@@ -317,6 +317,15 @@ h1.how-copy {
     }
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width : 600px) {
+    .content-wrapper .copy {
+        top: 15px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+}
 
 /* Animations */
 
