@@ -131,6 +131,10 @@ a.btn-align {
     border: 1px #51e3c2;
 }
 
+#copy-text .column h1 {
+    margin-top: 0px;
+}
+
 .column {
     float: left;
     width: 24.99%;
@@ -260,9 +264,7 @@ h1.how-copy {
         width: 75%;
         line-height: 24px;
     }
-    h1.how-copy {
-        font-size: 44px;
-    }
+    
     a.btn-align {
         margin-top: 25px;
     }
@@ -300,7 +302,9 @@ h1.how-copy {
         margin-top: 6px;
     }
     h1.how-copy {
-        font-size: 24px;
+        font-size: 34px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .column {
         width: 100%;
@@ -319,10 +323,16 @@ h1.how-copy {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width : 600px) {
+    .content-wrapper .container {
+        height: auto;
+    }    
+    
     .content-wrapper .copy {
         top: 15px;
         margin-left: 0%;
         margin-right: 0%;
+        bottom: auto;
+        height: 200px;
     }
     .column h1 {
         margin-top: 0px
