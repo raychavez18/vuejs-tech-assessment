@@ -324,7 +324,9 @@ h1.how-copy {
         margin-left: 0%;
         margin-right: 0%;
     }
-    
+    .column h1 {
+        margin-top: 0px
+    }
 }
 
 /* Animations */
