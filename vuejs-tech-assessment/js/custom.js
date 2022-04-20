@@ -48,19 +48,22 @@ function appendData(data) {
 }
 
 // Vue JS
-var myObject = new Vue({
-    el: '#app',
-    data: {
+Vue.createApp({
+    data() {
+      return {
         message: 'How It Works'
+      }
     }
-})
+  }).mount('#app')
 
-var myObjectTwo = new Vue({
-    el: '#copy-zone',
-    data: {
-        headlineOne: "New Games & Accessories",
-        headlineTwo: "Monthly packages. Excitement delivered daily.",
-        subheadline: "What's the best way to shop for the latest video games and peripherals? How about never shopping at all? You'll get new stuff on your doorstep — every month.",
-        cta: "Get Started"
-    }
-})
+   
+Vue.createApp({
+        data() {
+          return {
+            headlineOne: "New Games & Accessories",
+            headlineTwo: "Monthly packages. Excitement delivered daily.",
+            subheadline: "What's the best way to shop for the latest video games and peripherals? How about never shopping at all? You'll get new stuff on your doorstep — every month.",
+            cta: "Get Started"       
+          }
+        }
+    }).mount('#copy-zone')    
